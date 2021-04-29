@@ -24,9 +24,11 @@ Assets - Images & Icons can be found inside the resource folder of this reposito
 - Making it responsive for mobile is optional. 
 - In the Why Designstring section on clicking over the feature listed on the left side, the image on the right side has to change respectfully.
 
-Once you have raised the Pull Request. Your work will be reviewed against -
+Once you have completed the development, Please raise the pull request from your forked repository and your work will be reviewed against:
 - **Designs vs Developed UI**
 - **Readability & Reusability of code**
 - **Code Quality and Size**
 
 _This repository is meant to facilitate the interview process @Designstring and only referred candidates for the interview process are requested to access_
+
+Happy Coding!!!
