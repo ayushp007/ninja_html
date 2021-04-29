@@ -25,7 +25,7 @@ Assets - Images & Icons can be found inside the resource folder of this reposito
 - In the Why Designstring section on clicking over the feature listed on the left side, the image on the right side has to change respectfully.
 
 Once you have raised the Pull Request. Your work will be reviewed against -
-- **Designs vs Developed UI **
+- **Designs vs Developed UI**
 - **Readability & Reusability of code**
 - **Code Quality and Size**
 
