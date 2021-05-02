@@ -1,0 +1,228 @@
+* , body{
+    font-family: 'Inter', sans-serif !important;
+
+}
+body{
+    font-family: 'Inter', sans-serif !important;
+    overflow-x: hidden;
+}
+h3 {
+    font-weight: 700  !important;
+}
+a{
+    text-decoration: none !important;
+    color: unset;
+}
+.menu-items a{
+    color: black !important;
+}
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.menu-items ul {
+    list-style: none;
+}
+.menu-items ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 700;
+}
+.menu-items ul li:last-child a {
+    background: #FFB900;
+    padding: 13px 18px;
+    border-radius: 8px;
+}
+.menu-items ul li a:hover{
+    text-decoration: none;
+    color: unset !important;
+}
+.vmiddle{
+    align-items: center;
+    padding: 65px 0;
+}
+.hero-txt{
+    font-size: 43px;
+    font-weight: 300;
+}
+.hero-txt > span{
+    font-weight: 700;
+}
+.why-us{
+    padding-bottom: 80px;
+}
+.align-learn{
+    text-align: center;
+    padding-top: 60px;
+}
+.align-learn a {
+    color: #a7a2a2;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+.align-learn a > .rotate90{
+    transform: rotate(90deg);
+    display: inline-block;
+}
+h3{
+    font-weight: 600;
+    padding-top: 20px;
+}
+.sp{
+    padding:  50px 0 0;
+    cursor: pointer;
+    filter: blur(1px);
+}
+.sp:hover{
+    filter: blur(0px);
+}
+.h4-div > h4{
+    padding-bottom: 10px;
+    color: #00248A;
+}
+.switch {
+    list-style: none;
+    padding: 0;
+}
+.active0 .sp{
+    filter: blur(0px);
+}
+#two , #three{
+    display: none;
+}
+.db{
+    display: block !important;
+}
+.dn{
+    display: none !important;
+}
+#sect3 {
+    background: #f5f6fa;
+    padding-bottom: 180px;
+}
+#sect3 h3{
+    padding: 65px 0 40px;
+}
+#sect3 h5{
+    color: #00248A;
+}
+img.bg3 {
+    position: absolute;
+    right: -60px;
+}
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+.items.slick-initialized.slick-slider {
+    margin-top: -190px;
+}
+.slick-slide {
+    position: relative;
+    right: 65px;
+}
+.items > div{
+    position: relative;
+}
+.hover-link{
+    display: none;
+}
+.items > div > div > div:hover > a > .hover-link{
+    display: block;
+
+}
+.hover-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 36, 138, 0.9);
+}
+#sect4 {
+    background: #f5f6fa;
+    padding: 50px 0;
+    margin-top: 75px;
+}
+.subscribe input{
+    width: 100%;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.subscribe input:last-child{
+    background: #FFB900;
+    padding: 13px 0px;
+    border-radius: 8px;
+    width: 150px;
+    float: right;
+    font-weight: 700;
+}
+#foot{
+    background: rgba(232, 233, 235, 1);
+}
+.container.flex-btw {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+    align-items: center;
+}
+.container.flex-btw p {
+    position: relative;
+    top: 4px;
+    margin: 0;
+    font-size: 13px;
+}
+.container.flex-btw p > img {
+    position: relative;
+    top: -2px;
+}
+#one , #two , #three{width: 100%;position: relative;top: 60px;}
+.hover-link > h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    color: white;
+}
+.hover-link > h5 > span{
+    font-size: 15px;
+}
+.hover-link img {
+    width: 15px;
+    position: absolute;
+    bottom: 40px;
+    right: 15px;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    right: 13.6% !important;
+}
+button.slick-prev.slick-arrow {
+    left: 2% !important;
+    z-index: 9;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .55;
+}
